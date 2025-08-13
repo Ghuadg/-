@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site</title>
 
+    <link rel="stylesheet" href="libs/btn/anim-menu-btn.css">
+    <script src="libs/btn/anim-menu-btn.min.js" defer></script>
     <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
     <script src="libs/swiper/swiper-bundle.min.js" defer></script>
 
@@ -17,7 +19,7 @@
 <body>
     <div class="swiper slider">
         <div class="slider-ui">
-            <div class="container">
+            <div class="container header-wrapper">
                 <div class="top-line" >
                     <div class="row">
                         <div class="col col--center">
@@ -37,12 +39,46 @@
                         </div>
 
                         <div class="col col--center">
-                            <button class="submenu">
-                                1212
+                            <button class="submenu anim-menu-btn">
+                                <i class="anim-menu-btn__icon anim-menu-btn__icon--close"></i>
                             </button>
                         </div>
                     </div>
                 </div>
+
+                <div class="header-content">
+
+                    <div class="header-content__slide active">
+                        <h1 class="letters">Grow</h1>
+                        <div class="header-content__info">
+                            <p>As an environmental charity, we’re on a mission to make it simple for everyone to help the environment by planting each one tree!</p><br>
+                            <button class="button button--main">Plant a tree now</button>
+                        </div>
+
+                    </div>
+
+                    <div class="header-content__slide">
+                        <h1 class="letters">Wood</h1>
+                        <div class="header-content__info">
+                            <p>As an environmental charity, we’re on a mission to make it simple for everyone to help the environment by planting each one tree!</p><br>
+                            <button class="button button--main">Plant a tree now</button>
+                        </div>
+
+                    </div>
+
+                    <div class="header-content__slide">
+                        <h1 class="letters">Live</h1>
+                        <div class="header-content__info">
+                            <p>As an environmental charity, we’re on a mission to make it simple for everyone to help the environment by planting each one tree!</p><br>
+                            <button class="button button--main">Plant a tree now</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="header-bottom">
+
             </div>
         </div>
 
